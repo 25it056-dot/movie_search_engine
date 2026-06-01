@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Movie Search Engine</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🎬 Movie Search Engine</h1>
+</header>
+
+<div class="search-box">
+    <input
+        type="text"
+        id="searchInput"
+        placeholder="Search movies..."
+    >
+    <button id="searchBtn">Search</button>
+</div>
+
+<div id="moviesContainer" class="movies-container">
+</div>
+
+<div id="movieModal" class="modal">
+    <div class="modal-content">
+        <span id="closeModal">&times;</span>
+        <div id="movieDetails"></div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
